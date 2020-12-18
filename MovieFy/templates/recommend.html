@@ -28,7 +28,7 @@
 	</div>
 	<br>
 
-<div id="mycontent">
+<div id="mycontent" style="border: 1px solid white; padding: 15px; border-radius: 10px;margin: 10px">
     <div id="mcontent">
       <div class="poster-lg">
         <img class="poster" style="border-radius: 40px;margin-left: 90px;" height="400" width="250" src={{poster}}>
@@ -94,7 +94,7 @@
             <div class="imghvr">
               <img class="card-img-top cast-img" id="{{details[0]}}" height="360" width="240" alt="{{name}} - profile" src="{{details[2]}}">
               <figcaption class="fig">
-                <button class="card-btn btn btn-danger"> Know More </button>
+                <button class="card-btn btn btn-danger" style="background-color: #011a42;"> Know More </button>
               </figcaption>
             </div>
             <div class="card-body">
@@ -110,10 +110,10 @@
     {% if reviews %}
     <h2 style="color:white">USER REVIEWS</h2>
      <div class="col-md-12" style="margin: 0 auto; margin-top:25px;">
-        <table class="table table-bordered" bordercolor="white" style="color:white">
+        <table class="table table-bordered" bordercolor="white" style="color:white; border-radius: 5px;">
             <!-- <thead> -->
                 <tr>
-                    <th class="text-center" scope="col" style="width: 75%; color: red">COMMENTS</th>
+                    <th class="text-center" scope="col" style="width: 75%; color: #adcaf7">COMMENTS</th>
                 </tr>
             <!-- </thead> -->
             <tbody>
@@ -145,7 +145,7 @@
           <div class="imghvr">
             <img class="card-img-top" height="360" width="240" alt="{{title}} - poster" src={{poster}}>
             <figcaption class="fig">
-              <button class="card-btn btn btn-danger">Click here </button>
+              <button class="card-btn btn btn-danger" style="background-color: #011a42;">Click here </button>
             </figcaption>
            </div>
           <div class="card-body">
